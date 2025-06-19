@@ -3,3 +3,149 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    background-image: url(bground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center ;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: black;
+    line-height: 8px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo p{
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.logo img {
+   width: 100%;
+}
+
+.logo {
+  overflow: hidden;
+  height: 60px;
+  width: 100px;
+  display: flex;
+
+ }
+
+ .auth div{
+    margin: 0 20px;
+    height: 30px;
+    padding: 5px;
+}
+
+.auth button{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.sign-up{
+    background-color: #4caf4f00;
+}
+
+#login-in{
+    background-color:antiquewhite;
+}
+ main{
+    display: grid;
+    grid-template-columns: 1fr 70%;
+    height: 70vh;
+ }
+
+ aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .aside-head{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .aside-search-bar{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .aside-search-bar input{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+ }
+
+ .aside-search-bar a{
+    text-decoration: none;
+    color: rgb(0, 68, 255);
+ }
+
+ .aside-search-bar p{
+    font-size: 14px;
+ }
+
+ .aside-details{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ }
+
+ .aside-details-p{
+   list-style: 8px;
+   font-size: 30px;
+   font-weight: 500;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+ .asidep1{
+    line-height: 40px;
+    font-size: 30px;
+    color: #ffffffee;
+ }
+
+ .asidep2{
+    line-height: 40px;
+    font-size: 30px;
+    color: #ffffffee;
+ }
+
+.asidep2{
+    line-height: 40px;
+    font-size: 25px;
+    color: #ffffffee;
+}
