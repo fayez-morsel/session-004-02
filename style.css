@@ -61,9 +61,16 @@ header{
 }
 
 .auth button{
-    background-color:rgba(240, 248, 255, 0);
     border: 1px solid black;
     border-radius: 15px;
+}
+
+.sign-up{
+    background-color: #4caf4f00;
+}
+
+#login-in{
+    background-color:antiquewhite;
 }
  main{
     display: grid;
@@ -95,21 +102,50 @@ header{
  }
 
  .aside-search-bar input{
-    width: 70%;
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
  }
 
  .aside-search-bar a{
     text-decoration: none;
+    color: rgb(0, 68, 255);
+ }
 
+ .aside-search-bar p{
+    font-size: 14px;
  }
 
  .aside-details{
     height: 35%;
     display: flex;
     flex-direction: column;
+    padding: 10px;
  }
 
  .aside-details-p{
    list-style: 8px;
+   font-size: 30px;
+   font-weight: 500;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
  }
+
+ .asidep1{
+    line-height: 40px;
+    font-size: 30px;
+    color: #ffffffee;
+ }
+
+ .asidep2{
+    line-height: 40px;
+    font-size: 30px;
+    color: #ffffffee;
+ }
+
+.asidep2{
+    line-height: 40px;
+    font-size: 25px;
+    color: #ffffffee;
+}
