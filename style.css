@@ -23,11 +23,22 @@ header{
     display: flex;
     list-style: none;
     gap: 25px;
-    color: aliceblue;
+    color: black;
+    line-height: 8px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.nav a{
+    text-decoration: none;
+    color: black;
+}
 .logo p{
     color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 
@@ -47,8 +58,13 @@ header{
     margin: 0 20px;
     height: 30px;
     padding: 5px;
- }
+}
 
+.auth button{
+    background-color:rgba(240, 248, 255, 0);
+    border: 1px solid black;
+    border-radius: 15px;
+}
  main{
     display: grid;
     grid-template-columns: 1fr 70%;
