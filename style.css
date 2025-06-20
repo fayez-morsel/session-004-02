@@ -202,6 +202,9 @@ aside{
    margin: 15px 0 ;
 }
 
+.aside-img img:hover {
+    cursor: pointer;
+}
 .article-description-p{
    display: flex;
    justify-content: center;
@@ -216,6 +219,11 @@ aside{
    justify-content: space-around;
    height: 420px;
    padding-top: 40px;
+   transition: transform 0.7s cubic-bezier(0.25, 0.45, 0.45, 1.5);
+}
+
+.article-image img:hover{
+    transform: scale(1.2);
 }
 
 .article-image img{
