@@ -120,7 +120,7 @@ aside{
 .aside-search-bar a{
     text-decoration: none;
     color: rgb(10, 63, 209);
-    
+
 }
 
 .aside-search-bar p{
@@ -132,6 +132,7 @@ aside{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    justify-content: flex-end;
 }
 
 .aside-details-p{
@@ -183,4 +184,24 @@ aside{
    width: 35%;
    border-radius: 10px;
    margin: 15px 0 ;
+}
+
+.article-description-p{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   font-size: 22px;
+   color: white;
+}
+
+.article-image{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 420px;
+   padding-top: 40px;
+}
+
+.article-image img{
+   border-radius: 15px;
 }
