@@ -36,33 +36,40 @@ header{
 .logo p{
     color: white;
     padding-left: 20px;
-    padding-top: 15px;
-    font-size: 20px;
+    padding-top: 10px;
+    font-size: 40px;
     font-weight: 800;
 }
 
 
 .logo img {
-   width: 100%;
+   width: 70px;
+   border-radius: 50%;
 }
 
 .logo {
   overflow: hidden;
   height: 60px;
-  width: 100px;
+  width: 300px;
   display: flex;
+  
 
  }
 
  .auth div{
     margin: 0 20px;
-    height: 30px;
+    height: 50px;
+    width: 100px;
     padding: 5px;
+    font-size: 18px;
+    padding-top: 12px;
+
 }
 
 .auth button{
     border: 1px solid black;
     border-radius: 15px;
+
 }
 
 .sign-up{
@@ -70,82 +77,131 @@ header{
 }
 
 #login-in{
-    background-color:antiquewhite;
+    background-color:rgb(255, 255, 255);
 }
- main{
+main{
     display: grid;
     grid-template-columns: 1fr 70%;
     height: 70vh;
- }
+   }
 
- aside{
+aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
- }
+}
 
- .aside-head{
+.aside-head{
     height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- }
+}
 
- .aside-search-bar{
+.aside-search-bar{
     height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
- }
+}
 
- .aside-search-bar input{
+.aside-search-bar input{
     width: 80%;
     height: 40px;
     padding-left: 10px;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
     border: 1px solid black;
- }
+    border-right: none;
+}
 
- .aside-search-bar a{
+.aside-search-bar a{
     text-decoration: none;
-    color: rgb(0, 68, 255);
- }
+    color: rgb(10, 63, 209);
 
- .aside-search-bar p{
-    font-size: 14px;
- }
+}
 
- .aside-details{
+.aside-search-bar p{
+    font-size: 16px;
+}
+
+.aside-details{
     height: 35%;
     display: flex;
     flex-direction: column;
     padding: 10px;
- }
+    justify-content: flex-end;
+}
 
- .aside-details-p{
+.aside-details-p{
    list-style: 8px;
    font-size: 30px;
    font-weight: 500;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
- }
+}
 
- .asidep1{
+.asidep1{
     line-height: 40px;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: bold;
     color: #ffffffee;
- }
-
- .asidep2{
-    line-height: 40px;
-    font-size: 30px;
-    color: #ffffffee;
- }
+}
 
 .asidep2{
     line-height: 40px;
+    font-size: 45px;
+    color: #ffffffee;
+}
+
+.aside-p{
+    line-height: 40px;
     font-size: 25px;
     color: #ffffffee;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.search-container {
+ display: flex;
+ width: 350px;
+}
+
+.search-button {
+  border-radius: 0 20px 20px 0 ;
+  border: solid 1px black;
+  background-color: orange;
+  width: 60px;
+}
+
+.aside-img  {
+   display: flex;
+   justify-content: space-around;
+}
+
+.aside-img img{
+   width: 35%;
+   border-radius: 10px;
+   margin: 15px 0 ;
+}
+
+.article-description-p{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   font-size: 22px;
+   color: white;
+}
+
+.article-image{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 420px;
+   padding-top: 40px;
+}
+
+.article-image img{
+   border-radius: 15px;
 }
