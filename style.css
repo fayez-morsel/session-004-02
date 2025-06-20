@@ -32,6 +32,11 @@ header{
 .nav a{
     text-decoration: none;
     color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav a:hover{
+    color: yellowgreen;
 }
 .logo p{
     color: white;
@@ -63,21 +68,29 @@ header{
     padding: 5px;
     font-size: 18px;
     padding-top: 12px;
-
+   
 }
 
 .auth button{
     border: 1px solid black;
     border-radius: 15px;
+    transition: all 0.2s ease-in-out ;
 
 }
 
+.sign-up:hover{
+    background-color: rgb(255, 255, 255);
+}
 .sign-up{
     background-color: #4caf4f00;
 }
 
 #login-in{
     background-color:rgb(255, 255, 255);
+}
+
+#login-in:hover{
+    background-color: #4caf4f00;
 }
 main{
     display: grid;
@@ -120,8 +133,11 @@ aside{
 .aside-search-bar a{
     text-decoration: none;
     color: rgb(10, 63, 209);
+    
 
 }
+
+
 
 .aside-search-bar p{
     font-size: 16px;
